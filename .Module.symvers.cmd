@@ -1,0 +1,1 @@
+cmd_/home/devika/cs252projectws/cs252assignment/Module.symvers := sed 's/ko$$/o/' /home/devika/cs252projectws/cs252assignment/modules.order | scripts/mod/modpost -m -a   -o /home/devika/cs252projectws/cs252assignment/Module.symvers -e -i Module.symvers   -T -
