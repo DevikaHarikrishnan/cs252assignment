@@ -1,6 +1,5 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/devika/cs252projectws/cs252assignment'
- 
 make -C /lib/modules/5.11.0-38-generic/build M=/home/devika/cs252projectws/cs252assignment modules
 make: Leaving directory '/home/devika/cs252projectws/cs252assignment'
  

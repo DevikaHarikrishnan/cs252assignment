@@ -5,8 +5,13 @@
  *   	
  */
 /* Simple Kernel Program */
+/*#define MODULE
+#define LINUX
+#define _KERNEL_*/
+
 #include <linux/module.h>	/* Needed by all modules */
 #include <linux/kernel.h>	/* Needed for KERN_INFO */
+#define NAME "hello-1"
 
 int init_module(void)/* Called when the module is insmoded into the kernel*/
 {
